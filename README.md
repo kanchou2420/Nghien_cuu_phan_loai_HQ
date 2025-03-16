@@ -1,7 +1,8 @@
 📌 NGHIÊN CỨU SỬ DỤNG AI PHÂN LOẠI HOA QUẢ TƯƠI/HỎNG 🍊
 image
 🌐 Kết nối với chúng tôi:
-Facebook DNU AIoT Lab
+![image](https://github.com/user-attachments/assets/deaaa1f8-2882-4b0b-a5cd-919ee91e0015) Facebook DNU AIoT Lab
+
 Trang chủ FIT DNU
 Trang chủ Đại học Đại Nam
 

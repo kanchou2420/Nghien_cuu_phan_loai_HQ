@@ -1,22 +1,21 @@
-<p align="center">
-  <img src="logoDaiNam.png" alt="DaiNam University Logo" width="250" style="margin: 0 10px;">
-  <img src="LogoAIoTLab.png" alt="AIoT Lab Logo" width="250" style="margin: 0 10px;">
-</p>
+<!-- REDMI.md - File hướng dẫn và thông tin dự án -->
 
-<p align="center">
-  <a href="https://www.facebook.com/DNUAIoTLab" target="_blank">
-    <img src="https://img.shields.io/badge/Made%20by-AIoTLab-28a745?style=for-the-badge" alt="Made by AIoTLab">
-  </a>
-  <a href="https://fitdnu.net/" target="_blank">
-    <img src="https://img.shields.io/badge/Fit-DNU-dc3545?style=for-the-badge" alt="Fit DNU">
-  </a>
-  <a href="https://dainam.edu.vn/vi" target="_blank">
-    <img src="https://img.shields.io/badge/DaiNam%20University-ffc107?style=for-the-badge" alt="DaiNam University">
-  </a>
-</p>
+<!-- Header: Logo -->
+<div style="display: flex; justify-content: center; align-items: center; margin-bottom: 20px;">
+  <img src="logoDaiNam.png" alt="DaiNam University Logo" style="width: 250px; margin: 0 10px;">
+  <img src="LogoAIoTLab.png" alt="AIoT Lab Logo" style="width: 250px; margin: 0 10px;">
+</div>
+
+<!-- Navigation Buttons -->
+<div style="text-align: center; margin-bottom: 20px;">
+  <a href="https://www.facebook.com/DNUAIoTLab" target="_blank" style="display: inline-block; padding: 10px 20px; background-color: #28a745; color: #fff; border-radius: 5px; text-decoration: none; margin: 0 5px;">Made by AIoTLab</a>
+  <a href="https://fitdnu.net/" target="_blank" style="display: inline-block; padding: 10px 20px; background-color: #dc3545; color: #fff; border-radius: 5px; text-decoration: none; margin: 0 5px;">Fit DNU</a>
+  <a href="https://dainam.edu.vn/vi" target="_blank" style="display: inline-block; padding: 10px 20px; background-color: #ffc107; color: #333; border-radius: 5px; text-decoration: none; margin: 0 5px;">DaiNam University</a>
+</div>
 
 <hr>
 
+<!-- Project Description -->
 <h2 style="text-align: center;">✨ Mô tả dự án</h2>
 <p style="max-width: 800px; margin: auto; text-align: justify;">
   Dự án này sử dụng <strong>YOLO</strong> để phân loại hoa quả (tươi/hỏng) từ hình ảnh được chụp từ <strong>ESP32-CAM</strong>. Hệ thống dùng <strong>Flask</strong> làm backend để xử lý ảnh và gửi dữ liệu về giao diện web, đồng thời kết nối với <strong>Arduino</strong> để điều khiển phần cứng.
@@ -24,6 +23,7 @@
 
 <hr>
 
+<!-- Project Structure -->
 <h2 style="text-align: center;">🚀 Cấu trúc dự án</h2>
 <pre style="background-color: #000; padding: 15px; border-radius: 5px; overflow-x: auto; max-width: 800px; margin: auto; color: #fff;">
 📂 Nghien_cuu_phan_loai_HQ
@@ -31,7 +31,7 @@
 ├── 🔌 PhanCung/                  
 │   ├── ⚙️ BTL.ino               # Arduino code cho phần cứng
 │   └── 📡 CameraWebServer.ino   # Arduino code cho Camera Web Server
-├── 💻 REDMI/                    # Thư mục chứa code liên quan đến REDMI
+├── 💻 REDMI/                    # Thư mục chứa code liên quan đến REDMI (bao gồm file này)
 ├── 🎨 static/                   # Tài nguyên tĩnh (CSS, JS, hình ảnh, …)
 │   └── 📄 .gitkeep             # File giữ chỗ cho thư mục rỗng
 ├── 🌐 templates/                # Giao diện HTML cho Flask
@@ -43,6 +43,7 @@
 
 <hr>
 
+<!-- Hardware Section -->
 <h2 style="text-align: center;">🛠️ Phần cứng</h2>
 <div style="display: flex; justify-content: center; flex-wrap: wrap; max-width: 800px; margin: auto;">
   <button class="hardware" style="margin: 5px; padding: 10px 20px; background-color: #007BFF; border: none; border-radius: 5px; color: #fff; cursor: pointer; font-size: 14px;">ARDUINO UNO R3</button>
@@ -54,6 +55,7 @@
   <button class="hardware" style="margin: 5px; padding: 10px 20px; background-color: #007BFF; border: none; border-radius: 5px; color: #fff; cursor: pointer; font-size: 14px;">CẢM BIẾN FM52</button>
 </div>
 
+<!-- Software Section -->
 <h2 style="text-align: center;">💻 Phần mềm</h2>
 <div style="display: flex; justify-content: center; flex-wrap: wrap; max-width: 800px; margin: auto;">
   <button class="software" style="margin: 5px; padding: 10px 20px; background-color: #28a745; border: none; border-radius: 5px; color: #fff; cursor: pointer; font-size: 14px;">🐍 Python</button>
@@ -82,7 +84,7 @@
   - (Tùy chọn) Tạo môi trường ảo: <br>
   <code>python -m venv venv</code><br>
   <code>source venv/bin/activate   # Linux/MacOS</code><br>
-  <code>venv\\Scripts\\activate      # Windows</code><br><br>
+  <code>venv\Scripts\activate      # Windows</code><br><br>
   - Cài đặt các gói: <br>
   <code>pip install -r requirements.txt</code><br>
   Hoặc cài đặt trực tiếp: <br>
@@ -235,7 +237,7 @@
   - Trên máy tính, cài đặt Python 3.9+ và tạo môi trường ảo (tùy chọn):<br>
   <code>python -m venv venv</code><br>
   <code>source venv/bin/activate   # Linux/MacOS</code><br>
-  <code>venv\\Scripts\\activate      # Windows</code><br><br>
+  <code>venv\Scripts\activate      # Windows</code><br><br>
   - Cài đặt các thư viện cần thiết:<br>
   <code>pip install -r requirements.txt</code><br>
   Hoặc cài đặt trực tiếp:<br>
@@ -247,7 +249,7 @@
   - Khi cảm biến phát hiện vật thể, Arduino sẽ gửi lệnh <code>\"CHECK\"</code> qua Serial.<br>
   - Flask server nhận ảnh từ ESP32-CAM, xử lý bằng YOLO và gửi kết quả về Arduino:<br>
     &rarr; <strong>\"cam tươi\"</strong>: Băng chuyền chạy 4 giây.<br>
-    &rarr; <strong>\"cam hỏng\"</strong>: Băng chuyền chạy 1.9 giây, sau đó servo quay 90° trong 2 giây và quay lại.<br>
+    &rarr; <strong>\"cam hỏng\"</strong>: Băng chuyền chạy 1.9 giây, sau đó servo quay 90° trong 2 giây và quay lại vị trí ban đầu.<br>
     &rarr; <strong>\"unknown\"</strong>: Không kích hoạt phần cứng, chỉ in thông báo.<br>
   - Arduino nhận kết quả và điều khiển động cơ, servo theo đó.
 </p>
@@ -274,14 +276,14 @@
     </tr>
     <tr>
       <td style="padding: 8px; border: 1px solid #ccc;">Nguyễn Thu Huyền</td>
-      <td style="padding: 8px; border: 1px solid #ccc;">Biên soạn tài liệu overlef, hỗ trợ train model, thu thập dữ liệu, viết latext, làm poster, làm powpoint, thuyết trình, ngân sách thiết bị.</td>
+      <td style="padding: 8px; border: 1px solid #ccc;">Biên soạn tài liệu overlef, hỗ trợ train model, thu thập dữ liệu, viết LaTeX, làm poster, làm PowerPoint, thuyết trình, ngân sách thiết bị.</td>
       <td style="padding: 8px; border: 1px solid #ccc;">
         <a href="https://www.facebook.com/share/1Fh5LW8kQw/?mibextid=wwXIfr" style="display: inline-block; padding: 10px 20px; background-color: #6f42c1; color: #fff; border-radius: 5px; text-decoration: none;">Profile</a>
       </td>
     </tr>
     <tr>
       <td style="padding: 8px; border: 1px solid #ccc;">Nguyễn Phương Thảo</td>
-      <td style="padding: 8px; border: 1px solid #ccc;">Biên soạn tài liệu overlef, hỗ trợ train model, thu thập dữ liệu, viết latext, làm poster, làm powpoint, thuyết trình, ngân sách thiết bị.</td>
+      <td style="padding: 8px; border: 1px solid #ccc;">Biên soạn tài liệu overlef, hỗ trợ train model, thu thập dữ liệu, viết LaTeX, làm poster, làm PowerPoint, thuyết trình, ngân sách thiết bị.</td>
       <td style="padding: 8px; border: 1px solid #ccc;">
         <a href="https://www.facebook.com/share/1EJTvJUZss/" style="display: inline-block; padding: 10px 20px; background-color: #6f42c1; color: #fff; border-radius: 5px; text-decoration: none;">Profile</a>
       </td>

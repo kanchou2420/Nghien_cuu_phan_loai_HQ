@@ -313,7 +313,7 @@
 <hr>
 
 <h2 align="center">🤝 Đóng góp</h2>
-<p align="center">Dự án được phát triển bởi 4 thành viên:</p>
+<p>Dự án được phát triển bởi 4 thành viên:</p>
 
 <center>
 <table>
@@ -352,10 +352,4 @@
 
 <p align="center">© 2025 NHÓM 1, CNTT16-06, TRƯỜNG ĐẠI HỌC ĐẠI NAM</p>
 
-<div align="center">
-  <a href="https://www.facebook.com/DNUAIoTLab" target="_blank">Made by AIoTLab</a>
-  &nbsp;&nbsp;
-  <a href="https://fitdnu.net/" target="_blank">Fit DNU</a>
-  &nbsp;&nbsp;
-  <a href="https://dainam.edu.vn/vi" target="_blank">DaiNam University</a>
-</div>
+<

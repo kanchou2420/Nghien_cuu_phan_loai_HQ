@@ -6,12 +6,13 @@
 </div>
 
 <div align="center">
-  <a href="https://www.facebook.com/DNUAIoTLab" target="_blank">AIoTLab</a>
-  &nbsp;&nbsp;
-  <a href="https://fitdnu.net/" target="_blank">Fit DNU</a>
-  &nbsp;&nbsp;
-  <a href="https://dainam.edu.vn/vi" target="_blank">DaiNam University</a>
+
+[![MADE BY AIOTLAB](https://img.shields.io/badge/-MADE%20BY%20AIOTLAB-007bff?style=for-the-badge)](https://www.facebook.com/DNUAIoTLab)
+[![FIT DNU](https://img.shields.io/badge/-FIT%20DNU-28a745?style=for-the-badge)](https://fitdnu.net/)
+[![DAINAM UNIVERSITY](https://img.shields.io/badge/-DAINAM%20UNIVERSITY-dc3545?style=for-the-badge)](https://dainam.edu.vn/vi)
+
 </div>
+
 
 <br>
 <hr>

@@ -1,5 +1,6 @@
+<div align="center">
 # 📌 Dự Án Nhận Diện Hoa Quả 🍊
-
+</div>
 <div align="center">
   <img src="REDMI/logoDaiNam.png" alt="DaiNam University Logo" width="250">
   <img src="REDMI/LogoAIoTLab.png" alt="AIoT Lab Logo" width="250">

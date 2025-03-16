@@ -1,31 +1,30 @@
 # 📌 Dự Án Nhận Diện Hoa Quả 🍊
 
-<!-- Header: Logo -->
-<div style="display: flex; justify-content: center; align-items: center; margin-bottom: 20px;">
-  <img src="REDMI/logoDaiNam.png" alt="DaiNam University Logo" style="width: 250px; margin: 0 10px;">
-  <img src="REDMI/LogoAIoTLab.png" alt="AIoT Lab Logo" style="width: 250px; margin: 0 10px;">
+<div align="center">
+  <img src="REDMI/logoDaiNam.png" alt="DaiNam University Logo" width="250">
+  <img src="REDMI/LogoAIoTLab.png" alt="AIoT Lab Logo" width="250">
 </div>
-<br>
-<!-- Navigation Buttons -->
-<div style="text-align: center; ">
-  <a href="https://www.facebook.com/DNUAIoTLab" target="_blank" style="display: inline-block; padding: 10px 20px; background-color: #28a745; color: #fff; border-radius: 5px; text-decoration: none; margin: 0 5px;">AIoTLab</a>
-  <a href="https://fitdnu.net/" target="_blank" style="display: inline-block; padding: 10px 20px; background-color: #dc3545; color: #fff; border-radius: 5px; text-decoration: none; margin: 0 5px;">Fit DNU</a>
-  <a href="https://dainam.edu.vn/vi" target="_blank" style="display: inline-block; padding: 10px 20px; background-color: #ffc107; color: #333; border-radius: 5px; text-decoration: none; margin: 0 5px;">DaiNam University</a>
+
+<div align="center">
+  <a href="https://www.facebook.com/DNUAIoTLab" target="_blank">AIoTLab</a>
+  &nbsp;&nbsp;
+  <a href="https://fitdnu.net/" target="_blank">Fit DNU</a>
+  &nbsp;&nbsp;
+  <a href="https://dainam.edu.vn/vi" target="_blank">DaiNam University</a>
 </div>
+
 <br>
 <hr>
 
-<!-- Project Description -->
-<h2 style="text-align: center;">✨ Mô tả dự án</h2>
-<p style="max-width: 800px; margin: auto; text-align: justify;">
+<h2 align="center">✨ Mô tả dự án</h2>
+<p align="justify">
   Dự án này sử dụng <strong>YOLO</strong> để phân loại hoa quả (tươi/hỏng) từ hình ảnh được chụp từ <strong>ESP32-CAM</strong>. Hệ thống dùng <strong>Flask</strong> làm backend để xử lý ảnh và gửi dữ liệu về giao diện web, đồng thời kết nối với <strong>Arduino</strong> để điều khiển phần cứng.
 </p>
 
 <hr>
 
-<!-- Project Structure -->
-<h2 style="text-align: center;">🚀 Cấu trúc dự án</h2>
-<pre style="background-color: #000; padding: 15px; border-radius: 5px; overflow-x: auto; max-width: 800px; margin: auto; color: #fff;">
+<h2 align="center">🚀 Cấu trúc dự án</h2>
+<pre>
 📂 Nghien_cuu_phan_loai_HQ
 ├── 📸 anhcam/                   # Thư mục lưu trữ hình ảnh từ camera
 ├── 🔌 PhanCung/                  
@@ -43,38 +42,35 @@
 
 <hr>
 
-<!-- Hardware Section -->
-<h2 style="text-align: center;">🛠️ Phần cứng</h2>
-<div style="display: flex; justify-content: center; flex-wrap: wrap; max-width: 800px; margin: auto;">
-  <button style="margin: 5px; padding: 10px 20px; border: none; border-radius: 5px; background-color: #007BFF; color: #fff; font-size: 14px;">ARDUINO UNO R3</button>
-  <button style="margin: 5px; padding: 10px 20px; border: none; border-radius: 5px; background-color: #007BFF; color: #fff; font-size: 14px;">ESP32-CAM</button>
-  <button style="margin: 5px; padding: 10px 20px; border: none; border-radius: 5px; background-color: #007BFF; color: #fff; font-size: 14px;">SERVO</button>
-  <button style="margin: 5px; padding: 10px 20px; border: none; border-radius: 5px; background-color: #007BFF; color: #fff; font-size: 14px;">WIFI</button>
-  <button style="margin: 5px; padding: 10px 20px; border: none; border-radius: 5px; background-color: #007BFF; color: #fff; font-size: 14px;">DÂY KẾT NỐI</button>
-  <button style="margin: 5px; padding: 10px 20px; border: none; border-radius: 5px; background-color: #007BFF; color: #fff; font-size: 14px;">BĂNG TRUYỀN</button>
-  <button style="margin: 5px; padding: 10px 20px; border: none; border-radius: 5px; background-color: #007BFF; color: #fff; font-size: 14px;">CẢM BIẾN FM52</button>
+<h2 align="center">🛠️ Phần cứng</h2>
+<div align="center">
+  <button>ARDUINO UNO R3</button>
+  <button>ESP32-CAM</button>
+  <button>SERVO</button>
+  <button>WIFI</button>
+  <button>DÂY KẾT NỐI</button>
+  <button>BĂNG TRUYỀN</button>
+  <button>CẢM BIẾN FM52</button>
 </div>
 
-<!-- Software Section -->
-<h2 style="text-align: center;">💻 Phần mềm</h2>
-<div style="display: flex; justify-content: center; flex-wrap: wrap; max-width: 800px; margin: auto;">
-  <button style="margin: 5px; padding: 10px 20px; border: none; border-radius: 5px; background-color: #28a745; color: #fff; font-size: 14px;">🐍 Python</button>
-  <button style="margin: 5px; padding: 10px 20px; border: none; border-radius: 5px; background-color: #28a745; color: #fff; font-size: 14px;">Flask (2.3.2)</button>
-  <button style="margin: 5px; padding: 10px 20px; border: none; border-radius: 5px; background-color: #28a745; color: #fff; font-size: 14px;">Ultralytics YOLO (8.0.0)</button>
-  <button style="margin: 5px; padding: 10px 20px; border: none; border-radius: 5px; background-color: #28a745; color: #fff; font-size: 14px;">OpenCV-Python (4.8.0.76)</button>
-  <button style="margin: 5px; padding: 10px 20px; border: none; border-radius: 5px; background-color: #28a745; color: #fff; font-size: 14px;">NumPy (1.24.3)</button>
-  <button style="margin: 5px; padding: 10px 20px; border: none; border-radius: 5px; background-color: #28a745; color: #fff; font-size: 14px;">PySerial (3.5)</button>
-  <button style="margin: 5px; padding: 10px 20px; border: none; border-radius: 5px; background-color: #28a745; color: #fff; font-size: 14px;">Arduino IDE</button>
-  <button style="margin: 5px; padding: 10px 20px; border: none; border-radius: 5px; background-color: #28a745; color: #fff; font-size: 14px;">Servo Library</button>
-  <button style="margin: 5px; padding: 10px 20px; border: none; border-radius: 5px; background-color: #28a745; color: #fff; font-size: 14px;">best.pt</button>
-  <button style="margin: 5px; padding: 10px 20px; border: none; border-radius: 5px; background-color: #28a745; color: #fff; font-size: 14px;">HTML/CSS</button>
+<h2 align="center">💻 Phần mềm</h2>
+<div align="center">
+  <button>🐍 Python</button>
+  <button>Flask (2.3.2)</button>
+  <button>Ultralytics YOLO (8.0.0)</button>
+  <button>OpenCV-Python (4.8.0.76)</button>
+  <button>NumPy (1.24.3)</button>
+  <button>PySerial (3.5)</button>
+  <button>Arduino IDE</button>
+  <button>Servo Library</button>
+  <button>best.pt</button>
+  <button>HTML/CSS</button>
 </div>
 
 <hr>
 
-<!-- Python Libraries -->
-<h2 style="text-align: center;">📦 Các thư viện Python cần thiết</h2>
-<p style="max-width: 800px; margin: auto; text-align: justify;">
+<h2 align="center">📦 Các thư viện Python cần thiết</h2>
+<p align="justify">
   <strong>Các gói cần cài đặt:</strong><br>
   - Flask==2.3.2<br>
   - ultralytics==8.0.0<br>
@@ -96,145 +92,147 @@
 
 <hr>
 
-<!-- Circuit Diagram / Wiring -->
-<h2 style="text-align: center;">🧮 Bảng mạch</h2>
-<p style="max-width: 800px; margin: auto; text-align: center;">
+<h2 align="center">🧮 Bảng mạch</h2>
+<p align="center">
   ⛓️‍💥 <strong>Hướng dẫn cắm dây:</strong>
 </p>
 
-<!-- Bảng: Cảm biến FM52 -->
-<h4 style="text-align: center;">Cảm biến FM52</h4>
-<table style="margin: auto; border-collapse: collapse;">
+<h4 align="center">Cảm biến FM52</h4>
+<div align="center">
+<table>
   <tr>
-    <th style="padding: 8px; border: 1px solid #ccc;">Thiết bị</th>
-    <th style="padding: 8px; border: 1px solid #ccc;">Chân</th>
-    <th style="padding: 8px; border: 1px solid #ccc;">Giá trị</th>
-    <th style="padding: 8px; border: 1px solid #ccc;">Ghi chú</th>
+    <th>Thiết bị</th>
+    <th>Chân</th>
+    <th>Giá trị</th>
+    <th>Ghi chú</th>
   </tr>
   <tr>
-    <td style="padding: 8px; border: 1px solid #ccc;">Cảm biến FM52</td>
-    <td style="padding: 8px; border: 1px solid #ccc;">VCC</td>
-    <td style="padding: 8px; border: 1px solid #ccc;">5V</td>
-    <td style="padding: 8px; border: 1px solid #ccc;">Cấp nguồn cho cảm biến</td>
+    <td>Cảm biến FM52</td>
+    <td>VCC</td>
+    <td>5V</td>
+    <td>Cấp nguồn cho cảm biến</td>
   </tr>
   <tr>
-    <td style="padding: 8px; border: 1px solid #ccc;"></td>
-    <td style="padding: 8px; border: 1px solid #ccc;">GND</td>
-    <td style="padding: 8px; border: 1px solid #ccc;">GND</td>
-    <td style="padding: 8px; border: 1px solid #ccc;">Nối đất</td>
+    <td></td>
+    <td>GND</td>
+    <td>GND</td>
+    <td>Nối đất</td>
   </tr>
   <tr>
-    <td style="padding: 8px; border: 1px solid #ccc;"></td>
-    <td style="padding: 8px; border: 1px solid #ccc;">OUT</td>
-    <td style="padding: 8px; border: 1px solid #ccc;">D7</td>
-    <td style="padding: 8px; border: 1px solid #ccc;">Xuất tín hiệu phát hiện vật thể</td>
+    <td></td>
+    <td>OUT</td>
+    <td>D7</td>
+    <td>Xuất tín hiệu phát hiện vật thể</td>
   </tr>
 </table>
+</div>
 
 <br>
 
-<!-- Bảng: Relay (Điều khiển băng chuyền) -->
-<h4 style="text-align: center;">Relay (Điều khiển băng chuyền)</h4>
-<table style="margin: auto; border-collapse: collapse;">
+<h4 align="center">Relay (Điều khiển băng chuyền)</h4>
+<div align="center">
+<table>
   <tr>
-    <th style="padding: 8px; border: 1px solid #ccc;">Thiết bị</th>
-    <th style="padding: 8px; border: 1px solid #ccc;">Chân</th>
-    <th style="padding: 8px; border: 1px solid #ccc;">Giá trị</th>
-    <th style="padding: 8px; border: 1px solid #ccc;">Ghi chú</th>
+    <th>Thiết bị</th>
+    <th>Chân</th>
+    <th>Giá trị</th>
+    <th>Ghi chú</th>
   </tr>
   <tr>
-    <td style="padding: 8px; border: 1px solid #ccc;">Relay (Điều khiển băng chuyền)</td>
-    <td style="padding: 8px; border: 1px solid #ccc;">VCC</td>
-    <td style="padding: 8px; border: 1px solid #ccc;">5V</td>
-    <td style="padding: 8px; border: 1px solid #ccc;">Cấp nguồn cho relay</td>
+    <td>Relay (Điều khiển băng chuyền)</td>
+    <td>VCC</td>
+    <td>5V</td>
+    <td>Cấp nguồn cho relay</td>
   </tr>
   <tr>
-    <td style="padding: 8px; border: 1px solid #ccc;"></td>
-    <td style="padding: 8px; border: 1px solid #ccc;">GND</td>
-    <td style="padding: 8px; border: 1px solid #ccc;">GND</td>
-    <td style="padding: 8px; border: 1px solid #ccc;">Nối đất</td>
+    <td></td>
+    <td>GND</td>
+    <td>GND</td>
+    <td>Nối đất</td>
   </tr>
   <tr>
-    <td style="padding: 8px; border: 1px solid #ccc;"></td>
-    <td style="padding: 8px; border: 1px solid #ccc;">IN</td>
-    <td style="padding: 8px; border: 1px solid #ccc;">D8</td>
-    <td style="padding: 8px; border: 1px solid #ccc;">Điều khiển relay đóng/ngắt băng chuyền</td>
+    <td></td>
+    <td>IN</td>
+    <td>D8</td>
+    <td>Điều khiển relay đóng/ngắt băng chuyền</td>
   </tr>
   <tr>
-    <td style="padding: 8px; border: 1px solid #ccc;"></td>
-    <td style="padding: 8px; border: 1px solid #ccc;">COM</td>
-    <td style="padding: 8px; border: 1px solid #ccc;">1 cực của nguồn băng chuyền</td>
-    <td style="padding: 8px; border: 1px solid #ccc;">Dòng điện vào relay</td>
+    <td></td>
+    <td>COM</td>
+    <td>1 cực của nguồn băng chuyền</td>
+    <td>Dòng điện vào relay</td>
   </tr>
   <tr>
-    <td style="padding: 8px; border: 1px solid #ccc;"></td>
-    <td style="padding: 8px; border: 1px solid #ccc;">NO</td>
-    <td style="padding: 8px; border: 1px solid #ccc;">1 cực của động cơ băng chuyền</td>
-    <td style="padding: 8px; border: 1px solid #ccc;">Khi relay mở, băng chuyền chạy</td>
+    <td></td>
+    <td>NO</td>
+    <td>1 cực của động cơ băng chuyền</td>
+    <td>Khi relay mở, băng chuyền chạy</td>
   </tr>
 </table>
+</div>
 
 <br>
 
-<!-- Bảng: Băng chuyền -->
-<h4 style="text-align: center;">Băng chuyền</h4>
-<table style="margin: auto; border-collapse: collapse;">
+<h4 align="center">Băng chuyền</h4>
+<div align="center">
+<table>
   <tr>
-    <th style="padding: 8px; border: 1px solid #ccc;">Thiết bị</th>
-    <th style="padding: 8px; border: 1px solid #ccc;">Chân</th>
-    <th style="padding: 8px; border: 1px solid #ccc;">Giá trị</th>
-    <th style="padding: 8px; border: 1px solid #ccc;">Ghi chú</th>
+    <th>Thiết bị</th>
+    <th>Chân</th>
+    <th>Giá trị</th>
+    <th>Ghi chú</th>
   </tr>
   <tr>
-    <td style="padding: 8px; border: 1px solid #ccc;">Băng chuyền</td>
-    <td style="padding: 8px; border: 1px solid #ccc;">+</td>
-    <td style="padding: 8px; border: 1px solid #ccc;">Nối với NO của relay</td>
-    <td style="padding: 8px; border: 1px solid #ccc;">Nhận điện khi relay mở</td>
+    <td>Băng chuyền</td>
+    <td>+</td>
+    <td>Nối với NO của relay</td>
+    <td>Nhận điện khi relay mở</td>
   </tr>
   <tr>
-    <td style="padding: 8px; border: 1px solid #ccc;"></td>
-    <td style="padding: 8px; border: 1px solid #ccc;">-</td>
-    <td style="padding: 8px; border: 1px solid #ccc;">GND</td>
-    <td style="padding: 8px; border: 1px solid #ccc;">Hoàn thành mạch</td>
+    <td></td>
+    <td>-</td>
+    <td>GND</td>
+    <td>Hoàn thành mạch</td>
   </tr>
 </table>
+</div>
 
 <br>
 
-<!-- Bảng: Servo -->
-<h4 style="text-align: center;">Servo</h4>
-<table style="margin: auto; border-collapse: collapse;">
+<h4 align="center">Servo</h4>
+<div align="center">
+<table>
   <tr>
-    <th style="padding: 8px; border: 1px solid #ccc;">Thiết bị</th>
-    <th style="padding: 8px; border: 1px solid #ccc;">Chân</th>
-    <th style="padding: 8px; border: 1px solid #ccc;">Giá trị</th>
-    <th style="padding: 8px; border: 1px solid #ccc;">Ghi chú</th>
+    <th>Thiết bị</th>
+    <th>Chân</th>
+    <th>Giá trị</th>
+    <th>Ghi chú</th>
   </tr>
   <tr>
-    <td style="padding: 8px; border: 1px solid #ccc;">Servo</td>
-    <td style="padding: 8px; border: 1px solid #ccc;">VCC</td>
-    <td style="padding: 8px; border: 1px solid #ccc;">5V</td>
-    <td style="padding: 8px; border: 1px solid #ccc;">Cấp nguồn cho servo</td>
+    <td>Servo</td>
+    <td>VCC</td>
+    <td>5V</td>
+    <td>Cấp nguồn cho servo</td>
   </tr>
   <tr>
-    <td style="padding: 8px; border: 1px solid #ccc;"></td>
-    <td style="padding: 8px; border: 1px solid #ccc;">GND</td>
-    <td style="padding: 8px; border: 1px solid #ccc;">GND</td>
-    <td style="padding: 8px; border: 1px solid #ccc;">Nối đất</td>
+    <td></td>
+    <td>GND</td>
+    <td>GND</td>
+    <td>Nối đất</td>
   </tr>
   <tr>
-    <td style="padding: 8px; border: 1px solid #ccc;"></td>
-    <td style="padding: 8px; border: 1px solid #ccc;">Signal</td>
-    <td style="padding: 8px; border: 1px solid #ccc;">D9</td>
-    <td style="padding: 8px; border: 1px solid #ccc;">Nhận tín hiệu điều khiển từ Arduino</td>
+    <td></td>
+    <td>Signal</td>
+    <td>D9</td>
+    <td>Nhận tín hiệu điều khiển từ Arduino</td>
   </tr>
 </table>
+</div>
 
 <hr>
 
-<!-- Setup and Run Instructions -->
-<h2 style="text-align: center;">🚀 Hướng dẫn cài đặt và chạy</h2>
-<p style="max-width: 800px; margin: auto; text-align: justify;">
+<h2 align="center">🚀 Hướng dẫn cài đặt và chạy</h2>
+<p align="justify">
   <strong>1. Chuẩn bị phần cứng:</strong><br>
   - Nạp mã Arduino:<br>
   &nbsp;&nbsp;&bull; Mở file <code>BTL.ino</code> bằng Arduino IDE.<br>
@@ -252,12 +250,11 @@
 
 <hr>
 
-<!-- System Operation -->
-<h2 style="text-align: center;">Hoạt động của hệ thống</h2>
-<div style="text-align: center;">
-  <img src="REDMI/kientruc.jpg" alt="Kiến trúc hệ thống" style="display: block; margin: auto; max-width: 100%; height: auto; border: 1px solid #ccc;">
+<h2 align="center">Hoạt động của hệ thống</h2>
+<div align="center">
+  <img src="REDMI/kientruc.jpg" alt="Kiến trúc hệ thống" width="100%">
 </div>
-<p style="max-width: 800px; margin: auto; text-align: justify;">
+<p align="justify">
   <strong>1️⃣ Khởi động hệ thống:</strong><br>
   - Bật nguồn cho Arduino, ESP32-CAM và máy tính.<br>
   - Mở Serial Monitor (115200 baud) trên Arduino IDE để theo dõi hoạt động.<br>
@@ -275,9 +272,8 @@
 
 <hr>
 
-<!-- Code Explanation -->
-<h2 style="text-align: center;">Giải thích code</h2>
-<p style="max-width: 800px; margin: auto; text-align: justify;">
+<h2 align="center">Giải thích code</h2>
+<p align="justify">
   <strong>Arduino Code (arduino_code.ino):</strong><br>
   - <em>Khởi tạo:</em> Khởi tạo Serial ở tốc độ 115200, cấu hình chân cho cảm biến, relay và servo. Servo được gắn tại chân 9 và khởi tạo về góc 0°.<br>
   - <em>Vòng lặp chính:</em> Đọc trạng thái của cảm biến. Khi cảm biến thay đổi trạng thái hoặc sau khoảng thời gian định kỳ, gửi lệnh "CHECK" và chờ phản hồi từ Python.<br>
@@ -295,71 +291,69 @@
 
 <hr>
 
-<!-- Kết quả hiển thị -->
-<h2 style="text-align: center;">📸 Kết quả hiển thị</h2>
-<div style="text-align: center;">
+<h2 align="center">📸 Kết quả hiển thị</h2>
+<div align="center">
   <p><strong>Ảnh cam tươi trên web:</strong></p>
-  <img src="REDMI/anhcamtuoi.jpg" alt="Ảnh cam tươi" style="display: block; margin: auto; max-width: 100%; height: auto; border: 1px solid #ccc; margin-bottom: 20px;">
+  <img src="REDMI/anhcamtuoi.jpg" alt="Ảnh cam tươi" width="100%">
   
   <p><strong>Ảnh cam hỏng được cảnh báo:</strong></p>
-  <img src="REDMI/anhcamhong.jpg" alt="Ảnh cam hỏng" style="display: block; margin: auto; max-width: 100%; height: auto; border: 1px solid #ccc;">
+  <img src="REDMI/anhcamhong.jpg" alt="Ảnh cam hỏng" width="100%">
 </div>
 
 <br>
 <hr>
 
-<h2 style="text-align: center;">🌟 Poster ✨</h2>
-<p style="text-align: center;"><strong>Poster nhóm</strong></p>
-<div style="text-align: center;">
-  <img src="REDMI/poster.jpg" alt="Poster nhóm" style="display: block; margin: auto; max-width: 100%; height: auto; border: 1px solid #ccc;">
+<h2 align="center">🌟 Poster ✨</h2>
+<p align="center"><strong>Poster nhóm</strong></p>
+<div align="center">
+  <img src="REDMI/poster.jpg" alt="Poster nhóm" width="100%">
 </div>
 
 <br>
 <hr>
 
-<!-- Đóng góp -->
-<h2 style="text-align: center;">🤝 Đóng góp</h2>
-<p style="text-align: center;">Dự án được phát triển bởi 4 thành viên:</p>
-<table style="margin: auto; border-collapse: collapse;">
+<h2 align="center">🤝 Đóng góp</h2>
+<p align="center">Dự án được phát triển bởi 4 thành viên:</p>
+<div align="center">
+<table>
   <thead>
     <tr>
-      <th style="padding: 8px; border: 1px solid #ccc;">Họ và Tên</th>
-      <th style="padding: 8px; border: 1px solid #ccc;">Vai trò</th>
-      <th style="padding: 8px; border: 1px solid #ccc;">Profile</th>
+      <th>Họ và Tên</th>
+      <th>Vai trò</th>
+      <th>Profile</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td style="padding: 8px; border: 1px solid #ccc;">Đỗ Hải Anh</td>
-      <td style="padding: 8px; border: 1px solid #ccc;">Phát triển toàn bộ mã nguồn, tìm kiếm dữ liệu, lắp đặt phần cứng, train model, kiểm thử, triển khai dự án và thực hiện video giới thiệu, ngân sách thiết bị.</td>
-      <td style="padding: 8px; border: 1px solid #ccc;">
-        <a href="https://www.facebook.com/profile.php?id=100090566726527&locale=vi_VN" style="display: inline-block; padding: 10px 20px; background-color: #6f42c1; color: #fff; border-radius: 5px; text-decoration: none;">Profile</a>
-      </td>
+      <td>Đỗ Hải Anh</td>
+      <td>Phát triển toàn bộ mã nguồn, tìm kiếm dữ liệu, lắp đặt phần cứng, train model, kiểm thử, triển khai dự án và thực hiện video giới thiệu, ngân sách thiết bị.</td>
+      <td><a href="https://www.facebook.com/profile.php?id=100090566726527&locale=vi_VN" target="_blank">Profile</a></td>
     </tr>
     <tr>
-      <td style="padding: 8px; border: 1px solid #ccc;">Nguyễn Thu Huyền</td>
-      <td style="padding: 8px; border: 1px solid #ccc;">Biên soạn tài liệu overlef, hỗ trợ train model, thu thập dữ liệu, viết latext, làm poster, làm powpoint, thuyết trình, ngân sách thiết bị.</td>
-      <td style="padding: 8px; border: 1px solid #ccc;">
-        <a href="https://www.facebook.com/share/1Fh5LW8kQw/?mibextid=wwXIfr" style="display: inline-block; padding: 10px 20px; background-color: #6f42c1; color: #fff; border-radius: 5px; text-decoration: none;">Profile</a>
-      </td>
+      <td>Nguyễn Thu Huyền</td>
+      <td>Biên soạn tài liệu overlef, hỗ trợ train model, thu thập dữ liệu, viết latext, làm poster, làm powpoint, thuyết trình, ngân sách thiết bị.</td>
+      <td><a href="https://www.facebook.com/share/1Fh5LW8kQw/?mibextid=wwXIfr" target="_blank">Profile</a></td>
     </tr>
     <tr>
-      <td style="padding: 8px; border: 1px solid #ccc;">Nguyễn Phương Thảo</td>
-      <td style="padding: 8px; border: 1px solid #ccc;">Biên soạn tài liệu overlef, hỗ trợ train model, thu thập dữ liệu, viết latext, làm poster, làm powpoint, thuyết trình, ngân sách thiết bị.</td>
-      <td style="padding: 8px; border: 1px solid #ccc;">
-        <a href="https://www.facebook.com/share/1EJTvJUZss/" style="display: inline-block; padding: 10px 20px; background-color: #6f42c1; color: #fff; border-radius: 5px; text-decoration: none;">Profile</a>
-      </td>
+      <td>Nguyễn Phương Thảo</td>
+      <td>Biên soạn tài liệu overlef, hỗ trợ train model, thu thập dữ liệu, viết latext, làm poster, làm powpoint, thuyết trình, ngân sách thiết bị.</td>
+      <td><a href="https://www.facebook.com/share/1EJTvJUZss/" target="_blank">Profile</a></td>
     </tr>
     <tr>
-      <td style="padding: 8px; border: 1px solid #ccc;">Bùi Hải Phong</td>
-      <td style="padding: 8px; border: 1px solid #ccc;">Thu thập dữ liệu, gắn nhãn dữ liệu, hỗ trợ train model, lắp đặt phần cứng, kiểm thử, triển khai video giới thiệu, ngân sách thiết bị.</td>
-      <td style="padding: 8px; border: 1px solid #ccc;">
-        <a href="https://www.facebook.com/dz.phong.378" style="display: inline-block; padding: 10px 20px; background-color: #6f42c1; color: #fff; border-radius: 5px; text-decoration: none;">Profile</a>
-      </td>
+      <td>Bùi Hải Phong</td>
+      <td>Thu thập dữ liệu, gắn nhãn dữ liệu, hỗ trợ train model, lắp đặt phần cứng, kiểm thử, triển khai video giới thiệu, ngân sách thiết bị.</td>
+      <td><a href="https://www.facebook.com/dz.phong.378" target="_blank">Profile</a></td>
     </tr>
   </tbody>
 </table>
+</div>
 
-<p style="text-align: center; margin-top: 20px;">© 2025 NHÓM 1, CNTT16-06, TRƯỜNG ĐẠI HỌC ĐẠI NAM</p>
+<p align="center">© 2025 NHÓM 1, CNTT16-06, TRƯỜNG ĐẠI HỌC ĐẠI NAM</p>
 
-
+<div align="center">
+  <a href="https://www.facebook.com/DNUAIoTLab" target="_blank">Made by AIoTLab</a>
+  &nbsp;&nbsp;
+  <a href="https://fitdnu.net/" target="_blank">Fit DNU</a>
+  &nbsp;&nbsp;
+  <a href="https://dainam.edu.vn/vi" target="_blank">DaiNam University</a>
+</div>

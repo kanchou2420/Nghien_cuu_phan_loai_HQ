@@ -44,27 +44,27 @@
 
 <h2 align="center">🛠️ Phần cứng</h2>
 <div align="center">
-  <button>ARDUINO UNO R3</button>
-  <button>ESP32-CAM</button>
-  <button>SERVO</button>
-  <button>WIFI</button>
-  <button>DÂY KẾT NỐI</button>
-  <button>BĂNG TRUYỀN</button>
-  <button>CẢM BIẾN FM52</button>
+  [![Arduino Uno R3](https://img.shields.io/badge/-ARDUINO%20UNO%20R3-00979D?style=for-the-badge&logo=arduino&logoColor=white)](#)  
+[![ESP32-CAM](https://img.shields.io/badge/-ESP32--CAM-FF6600?style=for-the-badge)](#)  
+[![Servo](https://img.shields.io/badge/-SERVO-DC143C?style=for-the-badge)](#)  
+[![WiFi](https://img.shields.io/badge/-WIFI-007396?style=for-the-badge)](#)  
+[![Dây Kết Nối](https://img.shields.io/badge/-D%C3%82Y%20K%E1%BA%BET%20N%E1%BB%90I-555555?style=for-the-badge)](#)  
+[![Băng Truyền](https://img.shields.io/badge/-B%C4%82NG%20TRUY%E1%BB%80N-FFCC00?style=for-the-badge)](#)  
+[![Cảm Biến FM52](https://img.shields.io/badge/-C%E1%BA%A2M%20BI%E1%BA%BEN%20FM52-5C3EE8?style=for-the-badge)](#) 
 </div>
 
 <h2 align="center">💻 Phần mềm</h2>
 <div align="center">
-  <button>🐍 Python</button>
-  <button>Flask (2.3.2)</button>
-  <button>Ultralytics YOLO (8.0.0)</button>
-  <button>OpenCV-Python (4.8.0.76)</button>
-  <button>NumPy (1.24.3)</button>
-  <button>PySerial (3.5)</button>
-  <button>Arduino IDE</button>
-  <button>Servo Library</button>
-  <button>best.pt</button>
-  <button>HTML/CSS</button>
+  [![Python](https://img.shields.io/badge/-🐍%20Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](#)  
+[![Flask](https://img.shields.io/badge/-Flask%202.3.2-000000?style=for-the-badge&logo=flask&logoColor=white)](#)  
+[![YOLO](https://img.shields.io/badge/-Ultralytics%20YOLO%208.0.0-FFCC00?style=for-the-badge)](#)  
+[![OpenCV](https://img.shields.io/badge/-OpenCV%204.8.0.76-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)](#)  
+[![NumPy](https://img.shields.io/badge/-NumPy%201.24.3-013243?style=for-the-badge&logo=numpy&logoColor=white)](#)  
+[![PySerial](https://img.shields.io/badge/-PySerial%203.5-007396?style=for-the-badge)](#)  
+[![Arduino IDE](https://img.shields.io/badge/-Arduino%20IDE-00979D?style=for-the-badge&logo=arduino&logoColor=white)](#)  
+[![Servo Library](https://img.shields.io/badge/-Servo%20Library-FF6600?style=for-the-badge)](#)  
+[![best.pt](https://img.shields.io/badge/-best.pt-DC143C?style=for-the-badge)](#)  
+[![HTML/CSS](https://img.shields.io/badge/-HTML%2FCSS-E34F26?style=for-the-badge&logo=html5&logoColor=white)](#)  
 </div>
 
 <hr>
@@ -306,7 +306,7 @@
 <h2 align="center">🌟 Poster ✨</h2>
 <p align="center"><strong>Poster nhóm</strong></p>
 <div align="center">
-  <img src="REDMI/poster.jpg" alt="Poster nhóm" width="100%">
+  <img src="REDMI/Poster.png" alt="Poster nhóm" width="100%">
 </div>
 
 <br>
@@ -327,22 +327,22 @@
     <tr>
       <td>Đỗ Hải Anh</td>
       <td>Phát triển toàn bộ mã nguồn, tìm kiếm dữ liệu, lắp đặt phần cứng, train model, kiểm thử, triển khai dự án và thực hiện video giới thiệu, ngân sách thiết bị.</td>
-      <td><a href="https://www.facebook.com/profile.php?id=100090566726527&locale=vi_VN" target="_blank">Profile</a></td>
+      <td>[![Profile](https://img.shields.io/badge/-Profile%201-1877F2?style=for-the-badge&logo=facebook&logoColor=white)](https://www.facebook.com/profile.php?id=100090566726527&locale=vi_VN) </td>
     </tr>
     <tr>
       <td>Nguyễn Thu Huyền</td>
       <td>Biên soạn tài liệu overlef, hỗ trợ train model, thu thập dữ liệu, viết latext, làm poster, làm powpoint, thuyết trình, ngân sách thiết bị.</td>
-      <td><a href="https://www.facebook.com/share/1Fh5LW8kQw/?mibextid=wwXIfr" target="_blank">Profile</a></td>
+      <td>[![Profile](https://img.shields.io/badge/-Profile%202-1877F2?style=for-the-badge&logo=facebook&logoColor=white)](https://www.facebook.com/share/1Fh5LW8kQw/?mibextid=wwXIfr) </td>
     </tr>
     <tr>
       <td>Nguyễn Phương Thảo</td>
       <td>Biên soạn tài liệu overlef, hỗ trợ train model, thu thập dữ liệu, viết latext, làm poster, làm powpoint, thuyết trình, ngân sách thiết bị.</td>
-      <td><a href="https://www.facebook.com/share/1EJTvJUZss/" target="_blank">Profile</a></td>
+      <td>[![Profile](https://img.shields.io/badge/-Profile%203-1877F2?style=for-the-badge&logo=facebook&logoColor=white)](https://www.facebook.com/share/1EJTvJUZss/)  </td>
     </tr>
     <tr>
       <td>Bùi Hải Phong</td>
       <td>Thu thập dữ liệu, gắn nhãn dữ liệu, hỗ trợ train model, lắp đặt phần cứng, kiểm thử, triển khai video giới thiệu, ngân sách thiết bị.</td>
-      <td><a href="https://www.facebook.com/dz.phong.378" target="_blank">Profile</a></td>
+      <td>[![Profile](https://img.shields.io/badge/-Profile%204-1877F2?style=for-the-badge&logo=facebook&logoColor=white)](https://www.facebook.com/dz.phong.378) </td>
     </tr>
   </tbody>
 </table>

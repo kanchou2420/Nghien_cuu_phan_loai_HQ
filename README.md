@@ -2,8 +2,8 @@
 
 <!-- Header: Logo -->
 <div style="display: flex; justify-content: center; align-items: center; margin-bottom: 20px;">
-  <img src="REDMI/logoDaiNam.png" alt="DaiNam University Logo" style="width: 250px; margin: 0 10px;">
-  <img src="REDMI/LogoAIoTLab.png" alt="AIoT Lab Logo" style="width: 250px; margin: 0 10px;">
+  <img src="logoDaiNam.png" alt="DaiNam University Logo" style="width: 250px; margin: 0 10px;">
+  <img src="LogoAIoTLab.png" alt="AIoT Lab Logo" style="width: 250px; margin: 0 10px;">
 </div>
 
 <!-- Navigation Buttons -->

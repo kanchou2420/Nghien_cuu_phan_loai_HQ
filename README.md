@@ -1,4 +1,4 @@
-<!-- REDMI.md - File hướng dẫn và thông tin dự án -->
+# 📌 Dự Án Nhận Diện Hoa Quả 🍊
 
 <!-- Header: Logo -->
 <div style="display: flex; justify-content: center; align-items: center; margin-bottom: 20px;">
@@ -7,12 +7,12 @@
 </div>
 
 <!-- Navigation Buttons -->
-<!-- Navigation Buttons -->
 <div style="text-align: center; margin-bottom: 20px;">
-  <a href="https://www.facebook.com/DNUAIoTLab" target="_blank" style="display: inline-block; padding: 10px 20px; background-color: #28a745; color: #fff; border-radius: 5px; text-decoration: none; margin: 0 5px;">Made by AIoTLab</a>
+  <a href="https://www.facebook.com/DNUAIoTLab" target="_blank" style="display: inline-block; padding: 10px 20px; background-color: #28a745; color: #fff; border-radius: 5px; text-decoration: none; margin: 0 5px;">AIoTLab</a>
   <a href="https://fitdnu.net/" target="_blank" style="display: inline-block; padding: 10px 20px; background-color: #dc3545; color: #fff; border-radius: 5px; text-decoration: none; margin: 0 5px;">Fit DNU</a>
   <a href="https://dainam.edu.vn/vi" target="_blank" style="display: inline-block; padding: 10px 20px; background-color: #ffc107; color: #333; border-radius: 5px; text-decoration: none; margin: 0 5px;">DaiNam University</a>
 </div>
+<br>
 <hr>
 
 <!-- Project Description -->
@@ -255,7 +255,7 @@
 <!-- System Operation -->
 <h2 style="text-align: center;">Hoạt động của hệ thống</h2>
 <div style="text-align: center;">
-  <img src="REDMI/kientruc.jpg" alt="Kiến trúc hệ thống" style="max-width: 100%; height: auto; border: 1px solid #ccc; margin: auto;">
+  <img src="REDMI/kientruc.jpg" alt="Kiến trúc hệ thống" style="display: block; margin: auto; max-width: 100%; height: auto; border: 1px solid #ccc;">
 </div>
 <p style="max-width: 800px; margin: auto; text-align: justify;">
   <strong>1️⃣ Khởi động hệ thống:</strong><br>
@@ -299,10 +299,10 @@
 <h2 style="text-align: center;">📸 Kết quả hiển thị</h2>
 <div style="text-align: center;">
   <p><strong>Ảnh cam tươi trên web:</strong></p>
-  <img src="REDMI/anhcamtuoi.jpg" alt="Ảnh cam tươi" style="max-width: 100%; height: auto; border: 1px solid #ccc; margin: auto 0 20px;">
+  <img src="REDMI/anhcamtuoi.jpg" alt="Ảnh cam tươi" style="display: block; margin: auto; max-width: 100%; height: auto; border: 1px solid #ccc; margin-bottom: 20px;">
   
   <p><strong>Ảnh cam hỏng được cảnh báo:</strong></p>
-  <img src="REDMI/anhcamhong.jpg" alt="Ảnh cam hỏng" style="max-width: 100%; height: auto; border: 1px solid #ccc; margin: auto;">
+  <img src="REDMI/anhcamhong.jpg" alt="Ảnh cam hỏng" style="display: block; margin: auto; max-width: 100%; height: auto; border: 1px solid #ccc;">
 </div>
 
 <br>
@@ -311,7 +311,7 @@
 <h2 style="text-align: center;">🌟 Poster ✨</h2>
 <p style="text-align: center;"><strong>Poster nhóm</strong></p>
 <div style="text-align: center;">
-  <img src="REDMI/poster.jpg" alt="Poster nhóm" style="max-width: 100%; height: auto; border: 1px solid #ccc; margin: auto;">
+  <img src="REDMI/poster.jpg" alt="Poster nhóm" style="display: block; margin: auto; max-width: 100%; height: auto; border: 1px solid #ccc;">
 </div>
 
 <br>
@@ -361,3 +361,10 @@
 </table>
 
 <p style="text-align: center; margin-top: 20px;">© 2025 NHÓM 1, CNTT16-06, TRƯỜNG ĐẠI HỌC ĐẠI NAM</p>
+
+<!-- Footer Buttons -->
+<div style="text-align: center; margin-bottom: 20px;">
+  <a href="https://www.facebook.com/DNUAIoTLab" style="display: inline-block; padding: 10px 20px; background-color: #28a745; color: #fff; border-radius: 5px; text-decoration: none; margin: 0 5px;">Made by AIoTLab</a>
+  <a href="https://fitdnu.net/" style="display: inline-block; padding: 10px 20px; background-color: #dc3545; color: #fff; border-radius: 5px; text-decoration: none; margin: 0 5px;">Fit DNU</a>
+  <a href="https://dainam.edu.vn/vi" style="display: inline-block; padding: 10px 20px; background-color: #ffc107; color: #333; border-radius: 5px; text-decoration: none; margin: 0 5px;">DaiNam University</a>
+</div>

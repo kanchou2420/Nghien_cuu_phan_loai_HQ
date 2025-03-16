@@ -2,15 +2,15 @@
 
 <!-- Header: Logo -->
 <div style="display: flex; justify-content: center; align-items: center; margin-bottom: 20px;">
-  <img src="logoDaiNam.png" alt="DaiNam University Logo" style="width: 250px; margin: 0 10px;">
-  <img src="LogoAIoTLab.png" alt="AIoT Lab Logo" style="width: 250px; margin: 0 10px;">
+  <img src="REDMI/logoDaiNam.png" alt="DaiNam University Logo" style="width: 250px; margin: 0 10px;">
+  <img src="REDMI/LogoAIoTLab.png" alt="AIoT Lab Logo" style="width: 250px; margin: 0 10px;">
 </div>
 
 <!-- Navigation Buttons -->
 <div style="text-align: center; margin-bottom: 20px;">
-  <a href="https://www.facebook.com/DNUAIoTLab" target="_blank" style="display: inline-block; padding: 10px 20px; background-color: #28a745; color: #fff; border-radius: 5px; text-decoration: none; margin: 0 5px;">Made by AIoTLab</a>
-  <a href="https://fitdnu.net/" target="_blank" style="display: inline-block; padding: 10px 20px; background-color: #dc3545; color: #fff; border-radius: 5px; text-decoration: none; margin: 0 5px;">Fit DNU</a>
-  <a href="https://dainam.edu.vn/vi" target="_blank" style="display: inline-block; padding: 10px 20px; background-color: #ffc107; color: #333; border-radius: 5px; text-decoration: none; margin: 0 5px;">DaiNam University</a>
+  <a href="https://www.facebook.com/DNUAIoTLab" style="display: inline-block; padding: 10px 20px; background-color: #28a745; color: #fff; border-radius: 5px; text-decoration: none; margin: 0 5px;">Made by AIoTLab</a>
+  <a href="https://fitdnu.net/" style="display: inline-block; padding: 10px 20px; background-color: #dc3545; color: #fff; border-radius: 5px; text-decoration: none; margin: 0 5px;">Fit DNU</a>
+  <a href="https://dainam.edu.vn/vi" style="display: inline-block; padding: 10px 20px; background-color: #ffc107; color: #333; border-radius: 5px; text-decoration: none; margin: 0 5px;">DaiNam University</a>
 </div>
 
 <hr>
@@ -25,13 +25,13 @@
 
 <!-- Project Structure -->
 <h2 style="text-align: center;">🚀 Cấu trúc dự án</h2>
-<pre style="background-color: #000; padding: 15px; border-radius: 5px; overflow-x: auto; max-width: 800px; margin: auto; color: #fff;">
+<pre style="background-color: rgb(0, 0, 0); padding: 15px; border-radius: 5px; overflow-x: auto; max-width: 800px; margin: auto; color: #fff;">
 📂 Nghien_cuu_phan_loai_HQ
 ├── 📸 anhcam/                   # Thư mục lưu trữ hình ảnh từ camera
 ├── 🔌 PhanCung/                  
 │   ├── ⚙️ BTL.ino               # Arduino code cho phần cứng
 │   └── 📡 CameraWebServer.ino   # Arduino code cho Camera Web Server
-├── 💻 REDMI/                    # Thư mục chứa code liên quan đến REDMI (bao gồm file này)
+├── 💻 REDMI/                    # Thư mục chứa code liên quan đến REDMI
 ├── 🎨 static/                   # Tài nguyên tĩnh (CSS, JS, hình ảnh, …)
 │   └── 📄 .gitkeep             # File giữ chỗ cho thư mục rỗng
 ├── 🌐 templates/                # Giao diện HTML cho Flask
@@ -46,32 +46,33 @@
 <!-- Hardware Section -->
 <h2 style="text-align: center;">🛠️ Phần cứng</h2>
 <div style="display: flex; justify-content: center; flex-wrap: wrap; max-width: 800px; margin: auto;">
-  <button class="hardware" style="margin: 5px; padding: 10px 20px; background-color: #007BFF; border: none; border-radius: 5px; color: #fff; cursor: pointer; font-size: 14px;">ARDUINO UNO R3</button>
-  <button class="hardware" style="margin: 5px; padding: 10px 20px; background-color: #007BFF; border: none; border-radius: 5px; color: #fff; cursor: pointer; font-size: 14px;">ESP32-CAM</button>
-  <button class="hardware" style="margin: 5px; padding: 10px 20px; background-color: #007BFF; border: none; border-radius: 5px; color: #fff; cursor: pointer; font-size: 14px;">SERVO</button>
-  <button class="hardware" style="margin: 5px; padding: 10px 20px; background-color: #007BFF; border: none; border-radius: 5px; color: #fff; cursor: pointer; font-size: 14px;">WIFI</button>
-  <button class="hardware" style="margin: 5px; padding: 10px 20px; background-color: #007BFF; border: none; border-radius: 5px; color: #fff; cursor: pointer; font-size: 14px;">DÂY KẾT NỐI</button>
-  <button class="hardware" style="margin: 5px; padding: 10px 20px; background-color: #007BFF; border: none; border-radius: 5px; color: #fff; cursor: pointer; font-size: 14px;">BĂNG TRUYỀN</button>
-  <button class="hardware" style="margin: 5px; padding: 10px 20px; background-color: #007BFF; border: none; border-radius: 5px; color: #fff; cursor: pointer; font-size: 14px;">CẢM BIẾN FM52</button>
+  <button style="margin: 5px; padding: 10px 20px; border: none; border-radius: 5px; color: #fff; cursor: pointer; font-size: 14px; background-color: #007BFF;">ARDUINO UNO R3</button>
+  <button style="margin: 5px; padding: 10px 20px; border: none; border-radius: 5px; color: #fff; cursor: pointer; font-size: 14px; background-color: #007BFF;">ESP32-CAM</button>
+  <button style="margin: 5px; padding: 10px 20px; border: none; border-radius: 5px; color: #fff; cursor: pointer; font-size: 14px; background-color: #007BFF;">SERVO</button>
+  <button style="margin: 5px; padding: 10px 20px; border: none; border-radius: 5px; color: #fff; cursor: pointer; font-size: 14px; background-color: #007BFF;">WIFI</button>
+  <button style="margin: 5px; padding: 10px 20px; border: none; border-radius: 5px; color: #fff; cursor: pointer; font-size: 14px; background-color: #007BFF;">DÂY KẾT NỐI</button>
+  <button style="margin: 5px; padding: 10px 20px; border: none; border-radius: 5px; color: #fff; cursor: pointer; font-size: 14px; background-color: #007BFF;">BĂNG TRUYỀN</button>
+  <button style="margin: 5px; padding: 10px 20px; border: none; border-radius: 5px; color: #fff; cursor: pointer; font-size: 14px; background-color: #007BFF;">CẢM BIẾN FM52</button>
 </div>
 
 <!-- Software Section -->
 <h2 style="text-align: center;">💻 Phần mềm</h2>
 <div style="display: flex; justify-content: center; flex-wrap: wrap; max-width: 800px; margin: auto;">
-  <button class="software" style="margin: 5px; padding: 10px 20px; background-color: #28a745; border: none; border-radius: 5px; color: #fff; cursor: pointer; font-size: 14px;">🐍 Python</button>
-  <button class="software" style="margin: 5px; padding: 10px 20px; background-color: #28a745; border: none; border-radius: 5px; color: #fff; cursor: pointer; font-size: 14px;">Flask (2.3.2)</button>
-  <button class="software" style="margin: 5px; padding: 10px 20px; background-color: #28a745; border: none; border-radius: 5px; color: #fff; cursor: pointer; font-size: 14px;">Ultralytics YOLO (8.0.0)</button>
-  <button class="software" style="margin: 5px; padding: 10px 20px; background-color: #28a745; border: none; border-radius: 5px; color: #fff; cursor: pointer; font-size: 14px;">OpenCV-Python (4.8.0.76)</button>
-  <button class="software" style="margin: 5px; padding: 10px 20px; background-color: #28a745; border: none; border-radius: 5px; color: #fff; cursor: pointer; font-size: 14px;">NumPy (1.24.3)</button>
-  <button class="software" style="margin: 5px; padding: 10px 20px; background-color: #28a745; border: none; border-radius: 5px; color: #fff; cursor: pointer; font-size: 14px;">PySerial (3.5)</button>
-  <button class="software" style="margin: 5px; padding: 10px 20px; background-color: #28a745; border: none; border-radius: 5px; color: #fff; cursor: pointer; font-size: 14px;">Arduino IDE</button>
-  <button class="software" style="margin: 5px; padding: 10px 20px; background-color: #28a745; border: none; border-radius: 5px; color: #fff; cursor: pointer; font-size: 14px;">Servo Library</button>
-  <button class="software" style="margin: 5px; padding: 10px 20px; background-color: #28a745; border: none; border-radius: 5px; color: #fff; cursor: pointer; font-size: 14px;">best.pt</button>
-  <button class="software" style="margin: 5px; padding: 10px 20px; background-color: #28a745; border: none; border-radius: 5px; color: #fff; cursor: pointer; font-size: 14px;">HTML/CSS</button>
+  <button style="margin: 5px; padding: 10px 20px; border: none; border-radius: 5px; color: #fff; cursor: pointer; font-size: 14px; background-color: #28a745;">🐍 Python</button>
+  <button style="margin: 5px; padding: 10px 20px; border: none; border-radius: 5px; color: #fff; cursor: pointer; font-size: 14px; background-color: #28a745;">Flask (2.3.2)</button>
+  <button style="margin: 5px; padding: 10px 20px; border: none; border-radius: 5px; color: #fff; cursor: pointer; font-size: 14px; background-color: #28a745;">Ultralytics YOLO (8.0.0)</button>
+  <button style="margin: 5px; padding: 10px 20px; border: none; border-radius: 5px; color: #fff; cursor: pointer; font-size: 14px; background-color: #28a745;">OpenCV-Python (4.8.0.76)</button>
+  <button style="margin: 5px; padding: 10px 20px; border: none; border-radius: 5px; color: #fff; cursor: pointer; font-size: 14px; background-color: #28a745;">NumPy (1.24.3)</button>
+  <button style="margin: 5px; padding: 10px 20px; border: none; border-radius: 5px; color: #fff; cursor: pointer; font-size: 14px; background-color: #28a745;">PySerial (3.5)</button>
+  <button style="margin: 5px; padding: 10px 20px; border: none; border-radius: 5px; color: #fff; cursor: pointer; font-size: 14px; background-color: #28a745;">Arduino IDE</button>
+  <button style="margin: 5px; padding: 10px 20px; border: none; border-radius: 5px; color: #fff; cursor: pointer; font-size: 14px; background-color: #28a745;">Servo Library</button>
+  <button style="margin: 5px; padding: 10px 20px; border: none; border-radius: 5px; color: #fff; cursor: pointer; font-size: 14px; background-color: #28a745;">best.pt</button>
+  <button style="margin: 5px; padding: 10px 20px; border: none; border-radius: 5px; color: #fff; cursor: pointer; font-size: 14px; background-color: #28a745;">HTML/CSS</button>
 </div>
 
 <hr>
 
+<!-- Python Libraries -->
 <h2 style="text-align: center;">📦 Các thư viện Python cần thiết</h2>
 <p style="max-width: 800px; margin: auto;">
   <strong>Các gói cần cài đặt:</strong><br>
@@ -95,11 +96,13 @@
 
 <hr>
 
+<!-- Circuit Diagram / Wiring -->
 <h2 style="text-align: center;">🧮 Bảng mạch</h2>
 <p style="max-width: 800px; margin: auto;">
   ⛓️‍💥 <strong>Hướng dẫn cắm dây:</strong>
 </p>
 
+<!-- Bảng: Cảm biến FM52 -->
 <h4 style="text-align: center;">Cảm biến FM52</h4>
 <table style="margin-left: auto; margin-right: auto; border-collapse: collapse;">
   <tr>
@@ -130,6 +133,7 @@
 
 <br>
 
+<!-- Bảng: Relay (Điều khiển băng chuyền) -->
 <h4 style="text-align: center;">Relay (Điều khiển băng chuyền)</h4>
 <table style="margin-left: auto; margin-right: auto; border-collapse: collapse;">
   <tr>
@@ -172,6 +176,7 @@
 
 <br>
 
+<!-- Bảng: Băng chuyền -->
 <h4 style="text-align: center;">Băng chuyền</h4>
 <table style="margin-left: auto; margin-right: auto; border-collapse: collapse;">
   <tr>
@@ -196,6 +201,7 @@
 
 <br>
 
+<!-- Bảng: Servo -->
 <h4 style="text-align: center;">Servo</h4>
 <table style="margin-left: auto; margin-right: auto; border-collapse: collapse;">
   <tr>
@@ -226,57 +232,91 @@
 
 <hr>
 
-<!-- Display Results Section -->
-<h2 style="text-align: center;">📸 Kết quả hiển thị</h2>
-<div style="text-align: center;">
-  <p><strong>Ảnh cam tươi trên web:</strong></p>
-  <img src="anhcamtuoi.jpg" alt="Ảnh cam tươi" style="max-width: 100%; height: auto; border: 1px solid #ccc; margin-bottom: 20px;">
-  
-  <p><strong>Ảnh cam hỏng được cảnh báo:</strong></p>
-  <img src="anhcamhong.jpg" alt="Ảnh cam hỏng" style="max-width: 100%; height: auto; border: 1px solid #ccc;">
-</div>
-<br>
-<hr>
-<h2 style="text-align: center;">🌟 Poster ✨</h2>
-<p style="text-align: center;"><strong>Poster nhóm</strong></p>
-<div style="text-align: center;">
-  <img src="poster.jpg" alt="Poster nhóm" style="max-width: 100%; height: auto; border: 1px solid #ccc;">
-</div>
-
-<hr>
-
 <!-- Setup and Run Instructions -->
 <h2 style="text-align: center;">🚀 Hướng dẫn cài đặt và chạy</h2>
 <p style="max-width: 800px; margin: auto;">
   <strong>1. Chuẩn bị phần cứng:</strong><br>
-  - Nạp mã cho Arduino (file <code>BTL.ino</code>) bằng Arduino IDE.<br>
-  - Nạp mã cho ESP32-CAM (file <code>CameraWebServer.ino</code>) bằng Arduino IDE.<br>
-  - Kết nối phần cứng theo bảng mạch bên trên.<br>
-  - Đảm bảo Arduino xuất hiện trên cổng COM và ESP32-CAM hoạt động đúng.<br><br>
-  <strong>2. Cài đặt phần mềm:</strong><br>
-  - Trên máy tính, cài đặt Python 3.9+ và tạo môi trường ảo (tùy chọn):<br>
-  <code>python -m venv venv</code><br>
-  <code>source venv/bin/activate   # Linux/MacOS</code><br>
-  <code>venv\Scripts\activate      # Windows</code><br><br>
-  - Cài đặt các thư viện cần thiết:<br>
-  <code>pip install -r requirements.txt</code><br>
-  Hoặc cài đặt trực tiếp:<br>
-  <code>pip install Flask==2.3.2 ultralytics==8.0.0 opencv-python==4.8.0.76 numpy==1.24.3 pyserial==3.5</code><br><br>
-  - Chạy Flask server trên máy tính:<br>
-  <code>python web.py</code><br><br>
-  <strong>3. Vận hành hệ thống:</strong><br>
-  - Mở Serial Monitor (115200 baud) trên Arduino IDE để theo dõi hoạt động.<br>
-  - Khi cảm biến phát hiện vật thể, Arduino sẽ gửi lệnh <code>\"CHECK\"</code> qua Serial.<br>
-  - Flask server nhận ảnh từ ESP32-CAM, xử lý bằng YOLO và gửi kết quả về Arduino:<br>
-    &rarr; <strong>\"cam tươi\"</strong>: Băng chuyền chạy 4 giây.<br>
-    &rarr; <strong>\"cam hỏng\"</strong>: Băng chuyền chạy 1.9 giây, sau đó servo quay 90° trong 2 giây và quay lại vị trí ban đầu.<br>
-    &rarr; <strong>\"unknown\"</strong>: Không kích hoạt phần cứng, chỉ in thông báo.<br>
-  - Arduino nhận kết quả và điều khiển động cơ, servo theo đó.
+  - Nạp mã Arduino:<br>
+  &nbsp;&nbsp;&bull; Mở file <code>BTL.ino</code> bằng Arduino IDE.<br>
+  &nbsp;&nbsp;&bull; Kết nối board Arduino với máy tính.<br>
+  &nbsp;&nbsp;&bull; Nạp (upload) mã nguồn lên board.<br>
+  &nbsp;&nbsp;&bull; Đảm bảo Arduino xuất hiện trên cổng COM.<br>
+  - Nạp mã cho ESP32-CAM với file <code>CameraWebServer.ino</code>.<br><br>
+  <strong>2. CÀI ĐẶT PHẦN MỀM:</strong><br>
+  <strong>2.1 Cài đặt Arduino IDE:</strong><br>
+  &nbsp;&nbsp;&bull; Tải Arduino IDE tại: <a href="https://www.arduino.cc/en/software" target="_blank">Arduino Software</a>.<br>
+  &nbsp;&nbsp;&bull; Cài đặt Driver CH340 nếu dùng board Arduino clone.<br><br>
+  <strong>2.2 Cài đặt thư viện cho Arduino:</strong><br>
+  &nbsp;&nbsp;&bull; Mở Arduino IDE → Library Manager (Ctrl + Shift + I), tìm và cài: <code>Servo.h</code> (Điều khiển servo)
 </p>
 
 <hr>
 
-<!-- Contribution Section -->
+<!-- System Operation -->
+<h2 style="text-align: center;">Hoạt động của hệ thống</h2>
+
+<strong>🔧Kiến trúc của hệ thống 🪛</strong>
+<div style="text-align: center;">
+  <img src="REDMI/kientruc.jpg" alt="" style="max-width: 100%; height: auto; border: 1px solid #ccc;">
+</div>
+
+<p style="max-width: 800px; margin: auto;">
+  <strong>1️⃣ Khởi động hệ thống:</strong><br>
+  - Bật nguồn cho Arduino, ESP32-CAM và máy tính.<br>
+  - Mở Serial Monitor (115200 baud) trên Arduino IDE để theo dõi hoạt động.<br>
+  - Chạy Flask Server trên PC bằng lệnh: <code>python web.py</code><br><br>
+  <strong>Quy trình hoạt động:</strong><br>
+  - Server nhận ảnh từ ESP32-CAM và phân loại bằng YOLO.<br>
+  - Khi phát hiện quả, kết quả được gửi qua cổng Serial đến Arduino.<br>
+  - ESP32-CAM chụp ảnh và gửi về máy tính.<br>
+  - Python với YOLO phân loại ảnh và gửi kết quả về Arduino:<br>
+  &nbsp;&nbsp;&rarr; <strong>"cam tươi"</strong> → Băng chuyền chạy tiếp (4 giây).<br>
+  &nbsp;&nbsp;&rarr; <strong>"cam hỏng"</strong> → Băng chuyền chạy 1.9 giây, sau đó servo gạt quả hỏng (quay 90° trong 2 giây rồi quay lại).<br>
+  &nbsp;&nbsp;&rarr; <strong>"unknown"</strong> → Không kích hoạt phần cứng, chỉ in thông báo.<br>
+  - Arduino nhận kết quả và điều khiển động cơ, servo theo từng loại quả.
+</p>
+
+<hr>
+
+<!-- Code Explanation -->
+<h2 style="text-align: center;">Giải thích code</h2>
+<p style="max-width: 800px; margin: auto;">
+  <strong>Arduino Code (arduino_code.ino):</strong><br>
+  - <em>Khởi tạo:</em> Khởi tạo Serial ở tốc độ 115200, cấu hình chân cho cảm biến, relay và servo. Servo được gắn tại chân 9 và khởi tạo về góc 0°.<br>
+  - <em>Vòng lặp chính:</em> Đọc trạng thái của cảm biến. Khi cảm biến thay đổi trạng thái hoặc sau khoảng thời gian định kỳ, gửi lệnh "CHECK" và chờ phản hồi từ Python.<br>
+  - <em>Xử lý kết quả:</em><br>
+  &nbsp;&nbsp;&rarr; Nếu nhận "cam tươi": Kích hoạt relay chạy trong 4 giây.<br>
+  &nbsp;&nbsp;&rarr; Nếu nhận "cam hỏng": Kích hoạt relay chạy 1.9 giây, quay servo 90° trong 2 giây, sau đó quay lại 0°.<br>
+  &nbsp;&nbsp;&rarr; Nếu không nhận phản hồi : In thông báo timeout.<br>
+  &nbsp;&nbsp;&rarr; Nếu nhận vật thể không phải hoa quả cần nhận diện "uknown": không kích hoạt hoạt đông và in thông báo "No relevant object detected; skipping processing.".<br><br>
+  <strong>Flask &amp; YOLO Code (web.py):</strong><br>
+  - <em>Khởi tạo:</em> Flask server khởi chạy tại <code>http://0.0.0.0:5000/</code> và tải mô hình YOLO từ file <code>best.pt</code>.<br>
+  - <em>Xử lý ảnh:</em> Lấy ảnh từ ESP32-CAM qua URL, chạy YOLO để nhận diện đối tượng (quả cam tươi/hỏng), cập nhật ảnh annotate và kết quả phân loại.<br>
+  - <em>Giao tiếp với Arduino:</em> Khi nhận lệnh "CHECK" qua Serial, Flask sẽ chụp ảnh mới, xử lý và gửi kết quả ("cam tươi", "cam hỏng" hoặc "unknown") về Arduino.<br>
+  - <em>Giao diện web:</em> Hiển thị video feed từ camera, thông tin FPS, trạng thái camera và cảnh báo.
+</p>
+
+<hr>
+
+<!-- Kết quả hiển thị -->
+<h2 style="text-align: center;">📸 Kết quả hiển thị</h2>
+<div style="text-align: center;">
+  <p><strong>Ảnh cam tươi trên web:</strong></p>
+  <img src="REDMI/anhcamtuoi.jpg" alt="Ảnh cam tươi" style="max-width: 100%; height: auto; border: 1px solid #ccc; margin-bottom: 20px;">
+  
+  <p><strong>Ảnh cam hỏng được cảnh báo:</strong></p>
+  <img src="REDMI/anhcamhong.jpg" alt="Ảnh cam hỏng" style="max-width: 100%; height: auto; border: 1px solid #ccc;">
+</div>
+<br>
+<hr>
+<h2 style="text-align: center;">🌟 Poster ✨</h2>
+<p style="text-align: center;"><strong>Poster nhóm </strong></p>
+<div style="text-align: center;">
+  <img src="REDMI/poster.jpg" alt="" style="max-width: 100%; height: auto; border: 1px solid #ccc;">
+</div>
+<br>
+<hr>
+<!-- Đóng góp -->
 <h2 style="text-align: center;">🤝 Đóng góp</h2>
 <p style="text-align: center;">Dự án được phát triển bởi 4 thành viên:</p>
 <table style="margin-left: auto; margin-right: auto; border-collapse: collapse;">
@@ -297,14 +337,14 @@
     </tr>
     <tr>
       <td style="padding: 8px; border: 1px solid #ccc;">Nguyễn Thu Huyền</td>
-      <td style="padding: 8px; border: 1px solid #ccc;">Biên soạn tài liệu overlef, hỗ trợ train model, thu thập dữ liệu, viết LaTeX, làm poster, làm PowerPoint, thuyết trình, ngân sách thiết bị.</td>
+      <td style="padding: 8px; border: 1px solid #ccc;">Biên soạn tài liệu overlef, hỗ trợ train model, thu thập dữ liệu, viết latext, làm poster, làm powpoint, thuyết trình, ngân sách thiết bị.</td>
       <td style="padding: 8px; border: 1px solid #ccc;">
         <a href="https://www.facebook.com/share/1Fh5LW8kQw/?mibextid=wwXIfr" style="display: inline-block; padding: 10px 20px; background-color: #6f42c1; color: #fff; border-radius: 5px; text-decoration: none;">Profile</a>
       </td>
     </tr>
     <tr>
       <td style="padding: 8px; border: 1px solid #ccc;">Nguyễn Phương Thảo</td>
-      <td style="padding: 8px; border: 1px solid #ccc;">Biên soạn tài liệu overlef, hỗ trợ train model, thu thập dữ liệu, viết LaTeX, làm poster, làm PowerPoint, thuyết trình, ngân sách thiết bị.</td>
+      <td style="padding: 8px; border: 1px solid #ccc;">Biên soạn tài liệu overlef, hỗ trợ train model, thu thập dữ liệu, viết latext, làm poster, làm powpoint, thuyết trình, ngân sách thiết bị.</td>
       <td style="padding: 8px; border: 1px solid #ccc;">
         <a href="https://www.facebook.com/share/1EJTvJUZss/" style="display: inline-block; padding: 10px 20px; background-color: #6f42c1; color: #fff; border-radius: 5px; text-decoration: none;">Profile</a>
       </td>

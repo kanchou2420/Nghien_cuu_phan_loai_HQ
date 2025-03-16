@@ -1,11 +1,26 @@
-# 📌 NGHIÊN CỨU SỬ DỤNG AI PHÂN LOẠI HOA QUẢ TƯƠI/HỎNG🍊
+📌 NGHIÊN CỨU SỬ DỤNG AI PHÂN LOẠI HOA QUẢ TƯƠI/HỎNG 🍊
+image
+🌐 Kết nối với chúng tôi:
+Facebook DNU AIoT Lab
+Trang chủ FIT DNU
+Trang chủ Đại học Đại Nam
 
-![image](https://github.com/user-attachments/assets/fe70c04f-f19a-425c-aac5-f7acbdafd216)
-Made by AIoTLab Fit DNU DaiNam University
-https://www.facebook.com/DNUAIoTLab
-https://fitdnu.net/
-https://dainam.edu.vn/vi
+🚀 Mô tả dự án
+Dự án "Nghiên cứu sử dụng AI phân loại hoa quả tươi/hỏng" là một hệ thống tích hợp giữa phần cứng (Arduino, ESP32-CAM) và phần mềm (YOLO, Flask) nhằm tự động hóa quá trình phân loại hoa quả. Hệ thống sử dụng mô hình YOLO để nhận diện và phân loại hoa quả từ hình ảnh được chụp từ ESP32-CAM. Kết quả phân loại được hiển thị trên giao diện web được xây dựng bằng Flask, đồng thời điều khiển phần cứng thông qua Arduino để phản hồi kết quả (LED, còi, giọng nói).
 
-## 🚀 Mô tả dự án
-Dự án này sử dụng YOLO để phân loại hoa quả (tươi/hỏng) từ hình ảnh được chụp từ ESP32-CAM. Hệ thống sử dụng Flask làm backend để xử lý hình ảnh và gửi dữ liệu về giao diện web, đồng thời kết nối với Arduino để điều khiển phần cứng.
+🛠 Công nghệ sử dụng
+Phần cứng:
 
+ESP32-CAM Chụp ảnh hoa quả.
+
+Arduino Điều khiển LED, còi và phản hồi kết quả.
+
+Phần mềm:
+
+YOLO Mô hình AI phân loại hoa quả.
+
+Flask Xây dựng backend và giao diện web.
+
+MongoDB Lưu trữ dữ liệu điểm danh và kết quả phân loại.
+
+Tkinter Giao diện quản lý dữ liệu.

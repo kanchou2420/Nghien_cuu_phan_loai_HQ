@@ -4,7 +4,7 @@
   <img src="REDMI/logoDaiNam.png" alt="DaiNam University Logo" width="250">
   <img src="REDMI/LogoAIoTLab.png" alt="AIoT Lab Logo" width="250">
 </div>
-
+<br>
 <div align="center">
 
 [![MADE BY AIOTLAB](https://img.shields.io/badge/-MADE%20BY%20AIOTLAB-007bff?style=for-the-badge)](https://www.facebook.com/DNUAIoTLab)
@@ -14,7 +14,6 @@
 </div>
 
 
-<br>
 <hr>
 
 <h2 align="center">✨ Mô tả dự án</h2>

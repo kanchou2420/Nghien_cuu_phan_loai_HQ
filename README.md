@@ -45,21 +45,30 @@
 
 
 <button>ARDUINO UNO R3</button>
-  ### Core Technologies
-[![Docker](https://img.shields.io/badge/Docker-9ae5ff?style=for-the-badge&logo=docker&logoColor=blue)](https://www.docker.com/)
-[![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)](https://pytorch.org/)
-[![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/)
-[![HuggingFace](https://img.shields.io/badge/HuggingFace-19354c?style=for-the-badge&logo=HuggingFace&logoColor=ffbf00)](https://huggingface.co/sentence-transformers)
-### Database Systems
-[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)](https://www.postgresql.org/)
-[![Milvus](https://img.shields.io/badge/Milvus-00A1EA?style=for-the-badge&logo=milvus&logoColor=white)](https://milvus.io/)
-  <button>ESP32-CAM</button>
-  <button>SERVO</button>
-  <button>WIFI</button>
-  <button>DÂY KẾT NỐI</button>
-  <button>BĂNG TRUYỀN</button>
-  <button>CẢM BIẾN FM52</button>
+  ### >🛠️  Phần cứng
 
+<p align="center">
+[![Arduino Uno R3](https://img.shields.io/badge/-ARDUINO%20UNO%20R3-00979D?style=for-the-badge&logo=arduino&logoColor=white)](#)
+[![ESP32-CAM](https://img.shields.io/badge/-ESP32--CAM-FF6600?style=for-the-badge)](#)
+[![Servo](https://img.shields.io/badge/-SERVO-DC143C?style=for-the-badge)](#)
+[![WiFi](https://img.shields.io/badge/-WIFI-007396?style=for-the-badge)](#)
+[![Dây Kết Nối](https://img.shields.io/badge/-D%C3%82Y%20K%E1%BA%BET%20N%E1%BB%90I-555555?style=for-the-badge)](#)
+[![Băng Truyền](https://img.shields.io/badge/-B%C4%82NG%20TRUY%E1%BB%80N-FFCC00?style=for-the-badge)](#)
+[![Cảm Biến FM52](https://img.shields.io/badge/-C%E1%BA%A2M%20BI%E1%BA%BEN%20FM52-5C3EE8?style=for-the-badge)](#)
+</p>
+### 💻 Phần mềm
+<p align="center">
+[![Python](https://img.shields.io/badge/-🐍%20Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](#)
+[![Flask](https://img.shields.io/badge/-Flask%202.3.2-000000?style=for-the-badge&logo=flask&logoColor=white)](#)
+[![YOLO](https://img.shields.io/badge/-Ultralytics%20YOLO%208.0.0-FFCC00?style=for-the-badge)](#)
+[![OpenCV](https://img.shields.io/badge/-OpenCV%204.8.0.76-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)](#)
+[![NumPy](https://img.shields.io/badge/-NumPy%201.24.3-013243?style=for-the-badge&logo=numpy&logoColor=white)](#)
+[![PySerial](https://img.shields.io/badge/-PySerial%203.5-007396?style=for-the-badge)](#)
+[![Arduino IDE](https://img.shields.io/badge/-Arduino%20IDE-00979D?style=for-the-badge&logo=arduino&logoColor=white)](#)
+[![Servo Library](https://img.shields.io/badge/-Servo%20Library-FF6600?style=for-the-badge)](#)
+[![best.pt](https://img.shields.io/badge/-best.pt-DC143C?style=for-the-badge)](#)
+[![HTML/CSS](https://img.shields.io/badge/-HTML%2FCSS-E34F26?style=for-the-badge&logo=html5&logoColor=white)](#)
+</p>
 
 <h2 align="center">💻 Phần mềm</h2>
 <p align="center">

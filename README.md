@@ -45,9 +45,8 @@
 
 
 <div align="center>
+  
 ### 🛠️  Phần cứng
-
-
 [![Arduino Uno R3](https://img.shields.io/badge/-ARDUINO%20UNO%20R3-00979D?style=for-the-badge&logo=arduino&logoColor=white)](#)
 [![ESP32-CAM](https://img.shields.io/badge/-ESP32--CAM-FF6600?style=for-the-badge)](#)
 [![Servo](https://img.shields.io/badge/-SERVO-DC143C?style=for-the-badge)](#)
@@ -57,7 +56,6 @@
 [![Cảm Biến FM52](https://img.shields.io/badge/-C%E1%BA%A2M%20BI%E1%BA%BEN%20FM52-5C3EE8?style=for-the-badge)](#)
 
 ### 💻 Phần mềm
-
 [![Python](https://img.shields.io/badge/-🐍%20Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](#)
 [![Flask](https://img.shields.io/badge/-Flask%202.3.2-000000?style=for-the-badge&logo=flask&logoColor=white)](#)
 [![YOLO](https://img.shields.io/badge/-Ultralytics%20YOLO%208.0.0-FFCC00?style=for-the-badge)](#)

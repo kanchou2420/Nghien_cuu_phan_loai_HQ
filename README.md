@@ -43,10 +43,11 @@
 
 <hr>
 
+## Chuẩn bị 
 
 <div align="center>
 
-### 🛠️  Phần cứng
+### 🛠️ Phần cứng
 [![Arduino Uno R3](https://img.shields.io/badge/-ARDUINO%20UNO%20R3-00979D?style=for-the-badge&logo=arduino&logoColor=white)](#)
 [![ESP32-CAM](https://img.shields.io/badge/-ESP32--CAM-FF6600?style=for-the-badge)](#)
 [![Servo](https://img.shields.io/badge/-SERVO-DC143C?style=for-the-badge)](#)

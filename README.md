@@ -43,8 +43,7 @@
 
 <hr>
 
-<h2 align="center">🛠️ Phần cứng</h2>
-<p align="center">
+
 <button>ARDUINO UNO R3</button>
   ### Core Technologies
 [![Docker](https://img.shields.io/badge/Docker-9ae5ff?style=for-the-badge&logo=docker&logoColor=blue)](https://www.docker.com/)
@@ -60,7 +59,7 @@
   <button>DÂY KẾT NỐI</button>
   <button>BĂNG TRUYỀN</button>
   <button>CẢM BIẾN FM52</button>
-</p>
+
 
 <h2 align="center">💻 Phần mềm</h2>
 <p align="center">

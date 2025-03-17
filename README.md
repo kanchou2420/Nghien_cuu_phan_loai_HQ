@@ -46,6 +46,7 @@
 <h2 align="center">🛠️ Phần cứng</h2>
 <p align="center">
 <button>ARDUINO UNO R3</button>
+  [![ESP32-CAM](https://img.shields.io/badge/HuggingFace-19354c?style=for-the-badge&logo=HuggingFace&logoColor=ffbf00)]([https://huggingface.co/sentence-transformers](https://hshop.vn/kit-rf-thu-phat-wifi-ble-esp32-cam))
   <button>ESP32-CAM</button>
   <button>SERVO</button>
   <button>WIFI</button>

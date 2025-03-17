@@ -45,7 +45,7 @@
 
 
 
-  
+  <div align="center>
   
   ### 🛠️  Phần cứng
 
@@ -71,20 +71,8 @@
 [![best.pt](https://img.shields.io/badge/-best.pt-DC143C?style=for-the-badge)](#)
 [![HTML/CSS](https://img.shields.io/badge/-HTML%2FCSS-E34F26?style=for-the-badge&logo=html5&logoColor=white)](#)
 
+</div>
 
-<h2 align="center">💻 Phần mềm</h2>
-<p align="center">
- <button>🐍 Python</button>
-  <button>Flask (2.3.2)</button>
-  <button>Ultralytics YOLO (8.0.0)</button>
-  <button>OpenCV-Python (4.8.0.76)</button>
-  <button>NumPy (1.24.3)</button>
-  <button>PySerial (3.5)</button>
-  <button>Arduino IDE</button>
-  <button>Servo Library</button>
-  <button>best.pt</button>
-  <button>HTML/CSS</button>
-</p>
 
 <hr>
 

@@ -44,10 +44,8 @@
 <hr>
 
 
-
-  <div align="center>
-  
-  ### 🛠️  Phần cứng
+<div align="center>
+### 🛠️  Phần cứng
 
 
 [![Arduino Uno R3](https://img.shields.io/badge/-ARDUINO%20UNO%20R3-00979D?style=for-the-badge&logo=arduino&logoColor=white)](#)

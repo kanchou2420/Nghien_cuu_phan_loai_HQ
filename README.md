@@ -1,4 +1,4 @@
-<!-- REDMI.md - File hướng dẫn và thông tin dự án -->
+<!-- REDMI.md - File hướng dẫn và thông tin dự án --
 
 <!-- Header: Logo -->
 <div style="display: flex; justify-content: center; align-items: center; margin-bottom: 20px;">

@@ -44,31 +44,29 @@
 <hr>
 
 <!-- Hardware Section -->
-<h2 style="text-align: center;">🛠️ Phần cứng</h2>
-<div style="display: flex; justify-content: center; flex-wrap: wrap; max-width: 800px; margin: auto;">
-  <button class="hardware">ARDUINO UNO R3</button>
-  <button class="hardware">ESP32-CAM</button>
-  <button class="hardware">SERVO</button>
-  <button class="hardware">WIFI</button>
-  <button class="hardware">DÂY KẾT NỐI</button>
-  <button class="hardware">BĂNG TRUYỀN</button>
-  <button class="hardware">CẢM BIẾN FM52</button>
-</div>
+## 🛠️ Phần cứng
 
-<!-- Software Section -->
-<h2 style="text-align: center;">💻 Phần mềm</h2>
-<div style="display: flex; justify-content: center; flex-wrap: wrap; max-width: 800px; margin: auto;">
-  <button class="software">🐍 Python</button>
-  <button class="software">Flask (2.3.2)</button>
-  <button class="software">Ultralytics YOLO (8.0.0)</button>
-  <button class="software">OpenCV-Python (4.8.0.76)</button>
-  <button class="software">NumPy (1.24.3)</button>
-  <button class="software">PySerial (3.5)</button>
-  <button class="software">Arduino IDE</button>
-  <button class="software">Servo Library</button>
-  <button class="software">best.pt</button>
-  <button class="software">HTML/CSS</button>
-</div>
+- **ARDUINO UNO R3**
+- **ESP32-CAM**
+- **SERVO**
+- **WIFI**
+- **DÂY KẾT NỐI**
+- **BĂNG TRUYỀN**
+- **CẢM BIẾN FM52**
+
+## 💻 Phần mềm
+
+- **🐍 Python**
+- **Flask (2.3.2)**
+- **Ultralytics YOLO (8.0.0)**
+- **OpenCV-Python (4.8.0.76)**
+- **NumPy (1.24.3)**
+- **PySerial (3.5)**
+- **Arduino IDE**
+- **Servo Library**
+- **best.pt**
+- **HTML/CSS**
+
 
 <!-- Inline CSS cho Buttons và Tables -->
 <style>

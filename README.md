@@ -310,7 +310,7 @@
 <h2 style="text-align: center;">🌟 Poster ✨</h2>
 <p style="text-align: center;"><strong>Poster nhóm </strong></p>
 <div style="text-align: center;">
-  <img  src="REDMI/Poster.jpg" alt="" style="max-width: 100%; height: auto; border: 1px solid #ccc;"></div>
+  <img  src="REDMI/poster.jpg" alt="" style="max-width: 100%; height: auto; border: 1px solid #ccc;"></div>
 <br>
 <hr>
 <!-- Đóng góp -->

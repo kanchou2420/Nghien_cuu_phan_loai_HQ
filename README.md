@@ -68,30 +68,6 @@
 - **HTML/CSS**
 
 
-<!-- Inline CSS cho Buttons và Tables -->
-<style>
-  .hardware, .software {
-    margin: 5px;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    color: #fff;
-    cursor: pointer;
-    font-size: 14px;
-  }
-  .hardware { background-color: #007BFF; }
-  .software { background-color: #28a745; }
-  /* Style cho các bảng: căn giữa và thêm viền, padding */
-  table {
-    margin-left: auto;
-    margin-right: auto;
-    border-collapse: collapse;
-  }
-  th, td {
-    padding: 8px;
-    border: 1px solid #ccc;
-  }
-</style>
 
 <hr>
 
